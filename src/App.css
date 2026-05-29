@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+*{
+  color:black
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headerSection{
+  display:flex;
+  justify-content: space-between;
+  padding:10px;
+  background-color: rgb(138, 135, 225);
+  color:white;
+  padding-top:20px
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center ul li{
+  list-style-type:  none;
+  display:inline-flex;
+  margin:0px 10px;
+ 
+}
+.title{
+  font-size:1rem;
+}
+.left{
+  flex:2;
+  /* border:1px solid black */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.search{
+   flex:2;
+   /* border:1px solid black */
 }
-
-.App-link {
-  color: #61dafb;
+.search input{
+   padding: 10px;
+   width:30rem;
+   border-radius:5px;
+   margin-right:100px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right{
+   flex:4;
+   /* border:1px solid black; */
+   display: flex;
+   justify-content: space-between;
+   padding:0px 10px;
+}
+.bannerBox{
+  margin:10px 0px;
+}
+.bannerBox img{
+  width:100%;
+}
+.menImages{
+  display:flex;
+  gap:10px
+}
+.menImages img{
+  width:1200px;
+  height:200px;
+ 
 }
